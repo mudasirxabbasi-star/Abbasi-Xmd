@@ -7,10 +7,10 @@ const config = require('./start/Core/developer')
 
 const settings = {
   SESSION_ID: process.env.SESSION_ID || config.SESSION_ID || "", 
-  ownername: process.env.OWNER_NAME || config.ownername || "ᴋᴇʟᴠɪɴ ᴛᴇᴄʜ", 
-  botname: process.env.BOT_NAME || config.botname || "Vesper-Xmd", 
+  ownername: process.env.OWNER_NAME || config.ownername || "Faizan", 
+  botname: process.env.BOT_NAME || config.botname || "Abbasi-Xmd", 
   prefa: config.prefa || ['.', '!'], 
-  owner: config.owner || ["256742932677"] 
+  owner: config.owner || ["923120625769"] 
 };
 
 // Export settings for use in other modules
